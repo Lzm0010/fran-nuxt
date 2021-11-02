@@ -26,7 +26,7 @@
           :src="getImgUrl(img)"
         >
       </div>
-      <h5 class="photo-subtitle">
+      <!-- <h5 class="photo-subtitle">
         SINFULL PHOTOS
       </h5>
       <div class="headshots">
@@ -36,7 +36,7 @@
           class="sinfull-photo"
           :src="getImgUrl(img)"
         >
-      </div>
+      </div> -->
     </section>
   </div>
 </template>

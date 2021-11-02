@@ -36,6 +36,7 @@
 /* Video Page */
 
 .video-container {
+  margin-top: -6rem;
   display: flex;
   flex-direction: column;
   justify-content: center;

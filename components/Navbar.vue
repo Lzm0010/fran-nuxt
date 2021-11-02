@@ -71,7 +71,7 @@ nav {
   width: 100%;
   margin: 0;
   background-color: #ad2a67;
-  border-bottom: 1rem solid #f56200;
+  border-bottom: 0.5rem solid #f56200;
 }
 
 nav ul {

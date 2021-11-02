@@ -49,7 +49,7 @@ h2 {
 /* Main Section */
 
 .main {
-  padding: 8rem 10rem;
+  padding: 6.5rem 10rem;
 }
 
 @media screen and (max-width: 900px) {
