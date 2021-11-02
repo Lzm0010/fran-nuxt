@@ -136,7 +136,7 @@ nav ul {
     background-color: #ad2a67;
     padding: 0;
     position: absolute;
-    top: 7.6rem;
+    top: 7.2rem;
     text-align: center;
     display: block;
     width: 100%;
