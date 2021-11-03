@@ -45,7 +45,7 @@
 export default {
   data () {
     return {
-      headshots: ['fran0', 'fran1', 'fran2', 'fran3', 'fran4', 'fran5', 'fran6', 'fran7'],
+      headshots: ['fran0', 'fran1', 'fran2', 'fran4', 'fran5', 'fran3', 'fran6', 'fran7'],
       skylifeImages: ['skylife0', 'skylife1', 'skylife2', 'skylife3'],
       sinfullImages: ['sinfull0', 'sinfull1', 'sinfull2']
       // pngImages: ['htflp0', 'htflp1']
@@ -82,7 +82,6 @@ export default {
   flex-wrap: wrap;
   align-items: flex-start;
   margin-bottom: 4rem;
-  border: 0.5rem solid #ad2a67;
 }
 
 .headshot {
