@@ -1,7 +1,6 @@
 <template>
   <!-- Landing Page -->
   <section>
-    <h2>FRANCESCA BARKER MCCORMICK</h2>
     <ul class="landing-links">
       <li>
         <a
