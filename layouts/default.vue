@@ -36,7 +36,7 @@ body {
 
 h2 {
   font-family: "crushed", Arial, Helvetica, sans-serif;
-  font-size: 6rem;
+  font-size: 5rem;
   color: #2e3138;
 }
 

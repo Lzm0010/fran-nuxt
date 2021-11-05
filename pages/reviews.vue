@@ -122,7 +122,7 @@ export default {
   justify-content: center;
   align-items: center;
   padding: 2rem;
-  background-color: #ad2a67;
+  background-color: #2e3138;
   border-radius: 4px;
   width: 80%;
 }

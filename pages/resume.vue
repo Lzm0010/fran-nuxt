@@ -49,7 +49,7 @@ export default {
 
 .download-button {
   text-decoration: none;
-  border: 3px solid #f56200;
+  border: 3px solid #2e3138;
   height: 3.125rem;
   width: 10rem;
   background-color: #ad2a67;
@@ -73,7 +73,7 @@ export default {
 }
 
 .resume-frame {
-  background-color: #ad2a67;
+  background-color: #2e3138;
   width: 80%;
   display: flex;
   justify-content: center;

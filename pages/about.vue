@@ -67,23 +67,24 @@ export default {
 .about-me {
   display: flex;
   justify-content: space-evenly;
-  color: #ad2a67;
+  align-items: flex-start;
+  color: #2e3138;
   letter-spacing: 0.07em;
 }
 
 .about-me-img-frame {
-  background-color: #ad2a67;
   padding: 0.5rem;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100%;
-  border-radius: 4px;
 }
 
 .about-me-img {
-  width: 68%;
-  height: 85%;
+  border: 1rem solid #2e3138;
+  border-radius: 4px;
+  width: 20rem;
+  /* height: 85%; */
 }
 
 .about-me-item {
@@ -99,7 +100,7 @@ export default {
   }
 
   .about-me-img-frame {
-    background-color: #ad2a67;
+    background-color: #2e3138;
     padding: 0;
     display: flex;
     justify-content: center;
@@ -110,7 +111,7 @@ export default {
   .about-me-img {
     width: 100%;
     height: 100%;
-    border: 0.5rem solid #ad2a67;
+    border: 0.5rem solid #2e3138;
   }
 
   .about-me-item {

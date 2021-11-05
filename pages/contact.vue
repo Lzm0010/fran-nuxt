@@ -89,7 +89,7 @@ export default {
   background-color: #ad2a67;
   color: white;
   padding: 1.3rem;
-  border: 3px solid #f56200;
+  border: 3px solid #2e3138;
   border-radius: 4px;
   margin-right: 2.5rem;
 
@@ -111,7 +111,7 @@ form {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #ad2a67;
+  background-color: #2e3138;
   border-radius: 4px;
 }
 
@@ -120,7 +120,7 @@ form {
   width: 100%;
   height: 3.125rem;
   background-color: white;
-  border: 3px solid #f56200;
+  border: 3px solid #ad2a67;
   border-radius: 4px;
   margin-bottom: 1.5rem;
   padding-left: 0.5rem;
@@ -140,7 +140,7 @@ form {
 .submit-button {
   height: 3.125rem;
   width: 50%;
-  background-color: #f56200;
+  background-color: #ad2a67;
   color: white;
   border: 3px solid white;
   border-radius: 4px;
@@ -150,7 +150,7 @@ form {
 
   &:hover {
     background-color: white;
-    color: #f56200;
+    color: #ad2a67;
   }
 }
 

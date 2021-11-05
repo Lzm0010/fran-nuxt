@@ -1,43 +1,49 @@
 <template>
   <!-- Landing Page -->
   <section>
-    <ul class="landing-links">
-      <li>
-        <a
-          href="https://www.imdb.com/name/nm11906396/"
-          target="_blank"
-        >IMDb</a>
-      </li>
-      <li>
-        <a
-          href="https://resumes.actorsaccess.com/francescabmccormick"
-          target="_blank"
-        >ACTORS ACCESS</a>
-      </li>
-      <li>
-        <a
-          href="https://app.castingnetworks.com/talent/public-profile/b9b305d6-35e3-11ec-9c45-2b5241d49a43"
-          target="_blank"
-        >LA CASTING</a>
-      </li>
-      <li>
-        <a
-          href="https://www.backstage.com/u/francesca-mccormick/"
-          target="_blank"
-        >BACKSTAGE</a>
-      </li>
-    </ul>
-    <img
-      class="landing-image"
-      src="@/assets/images/landingfran.jpg"
-      alt="Fran at Vogue Event"
-    >
+    <div class="landing-view">
+      <ul class="landing-links">
+        <li>
+          <a
+            href="https://www.imdb.com/name/nm11906396/"
+            target="_blank"
+          >IMDb</a>
+        </li>
+        <li>
+          <a
+            href="https://resumes.actorsaccess.com/francescabmccormick"
+            target="_blank"
+          >ACTORS ACCESS</a>
+        </li>
+        <li>
+          <a
+            href="https://app.castingnetworks.com/talent/public-profile/b9b305d6-35e3-11ec-9c45-2b5241d49a43"
+            target="_blank"
+          >LA CASTING</a>
+        </li>
+        <li>
+          <a
+            href="https://www.backstage.com/u/francesca-mccormick/"
+            target="_blank"
+          >BACKSTAGE</a>
+        </li>
+      </ul>
+      <img
+        class="landing-image"
+        src="@/assets/images/landingfran.jpg"
+        alt="Fran at Vogue Event"
+      >
+    </div>
   </section>
 </template>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="scss">
 /* Landing Page */
+.landing-view {
+  padding-top: 6rem;
+}
+
 .landing-image {
   margin-top: -4rem;
   height: 100%;

@@ -49,7 +49,7 @@
 }
 
 .video-frame {
-  background-color: #ad2a67;
+  background-color: #2e3138;;
   display: flex;
   justify-content: center;
   align-items: center;
