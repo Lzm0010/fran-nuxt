@@ -70,6 +70,7 @@ export default {
   align-items: flex-start;
   color: #2e3138;
   letter-spacing: 0.07em;
+  margin: -1rem;
 }
 
 .about-me-img-frame {
@@ -88,7 +89,7 @@ export default {
 }
 
 .about-me-item {
-  padding: 1rem;
+  padding: 0 1rem;
   flex: 1 1 0;
 }
 
