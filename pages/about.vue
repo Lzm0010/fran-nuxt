@@ -85,7 +85,6 @@ export default {
   border: 1rem solid #2e3138;
   border-radius: 4px;
   width: 20rem;
-  /* height: 85%; */
 }
 
 .about-me-item {

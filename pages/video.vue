@@ -9,7 +9,7 @@
       <div class="video-frame">
         <iframe
           class="video-iframe"
-          src="https://www.youtube.com/embed/doGl5bOwSGI"
+          src="https://www.youtube.com/embed/-cSD2WPCfy8"
           frameborder="0"
           allowfullscreen
         />
@@ -54,13 +54,13 @@
   justify-content: center;
   align-items: center;
   border-radius: 4px;
-  padding: 2rem;
+  padding: 1rem;
   margin: 0.5rem;
 }
 
 .video-iframe {
-  height: 43rem;
-  width: 50rem;
+  height: 27rem;
+  width: 48rem;
 }
 
 @media screen and (max-width: 900px) {

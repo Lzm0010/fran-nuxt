@@ -41,6 +41,11 @@
           Submit
         </button>
       </form>
+      <!-- <img
+        class="contact-img"
+        src="@/assets/images/contactfran.jpg"
+        alt="Contact Francesca"
+      > -->
     </div>
   </section>
 </template>
@@ -101,8 +106,15 @@ export default {
 
 .form-container {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+
+.contact-img {
+  border: 1rem solid #2e3138;
+  border-radius: 4px;
+  width: 20rem;
+  /* height: 85%; */
 }
 
 form {
