@@ -13,39 +13,51 @@
       </a>
     </div>
     <div class="form-container">
-      <form @submit.prevent="sendEmail">
-        <input
-          id="name"
-          v-model="name"
-          class="form-group"
-          type="text"
-          name="name"
-          placeholder="Name"
-        >
-        <input
-          id="email"
-          v-model="email"
-          class="form-group"
-          name="email"
-          type="email"
-          placeholder="Email"
-        >
-        <textarea
-          id="message"
-          v-model="message"
-          class="form-group form-group-textarea"
-          name="message"
-          placeholder="Add a message"
-        />
-        <button class="submit-button" type="submit" value="Send">
-          Submit
-        </button>
-      </form>
-      <!-- <img
-        class="contact-img"
+      <div class="left-contact form-flex-item">
+        <div class="agent-info">
+          <h4>Agent:</h4>
+          <p>Sharon Kelly</p>
+          <p>American Artists Group Talent Agency</p>
+          <p>13321 Ventura Blvd, Suite C-2</p>
+          <p>Sherman Oaks, Ca 91423</p>
+          <p>AmericanArtistsGroupTalent@gmail.com</p>
+          <p>(818) 430-8688</p>
+        </div>
+        <h4>Send me an Email:</h4>
+        <form @submit.prevent="sendEmail">
+          <input
+            id="name"
+            v-model="name"
+            class="form-group"
+            type="text"
+            name="name"
+            placeholder="Name"
+          >
+          <input
+            id="email"
+            v-model="email"
+            class="form-group"
+            name="email"
+            type="email"
+            placeholder="Email"
+          >
+          <textarea
+            id="message"
+            v-model="message"
+            class="form-group form-group-textarea"
+            name="message"
+            placeholder="Add a message"
+          />
+          <button class="submit-button" type="submit" value="Send">
+            Submit
+          </button>
+        </form>
+      </div>
+      <img
+        class="contact-img form-flex-item"
         src="@/assets/images/contactfran.jpg"
         alt="Contact Francesca"
-      > -->
+      >
     </div>
   </section>
 </template>
@@ -110,6 +122,18 @@ export default {
   align-items: flex-start;
 }
 
+.left-contact {
+  flex-basis: 50%;
+}
+
+.agent-info {
+  margin-bottom: 1rem;
+   p {
+     margin: 0;
+     line-height: 1.2;
+   }
+}
+
 .contact-img {
   border: 1rem solid #2e3138;
   border-radius: 4px;
@@ -119,7 +143,6 @@ export default {
 
 form {
   padding: 2rem;
-  width: 80%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -170,6 +193,19 @@ form {
   .insta-link {
     margin-right: 0;
     padding: 0.81rem;
+  }
+
+  .form-container {
+    flex-wrap: wrap;
+  }
+
+  .form-flex-item {
+    flex-basis: 100%;
+    margin-bottom: 0.5rem;
+  }
+
+  .contact-img {
+    order: -1;
   }
 }
 </style>
