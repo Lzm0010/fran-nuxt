@@ -4,7 +4,7 @@
     <div class="resume-header">
       <h2>RESUME</h2>
       <a
-        :href="`${publicPath}francescamccormickresume.pdf`"
+        :href="`/francescamccormickresume.pdf`"
         target="_blank"
         class="download-button"
       >Download</a>
