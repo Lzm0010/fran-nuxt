@@ -9,6 +9,12 @@
           American actress.
         </p>
         <p>
+          Barker McCormick was born in Mobile, Alabama, to her parents, Jeff and Ana Barker.
+          She has one older brother. After graduating from UMS Wright Preparatory school in 2011,
+          she attended High Point University (NC) where she was the captain of the dance team,
+          graduating in May 2015.
+        </p>
+        <p>
           Prior to her career in film and television, her inherent eye for
           fashion and shows such as Sweet Home Alabama, Sex and the City,
           Gossip Girl, and The Devil Wears Prada influenced her decision to
@@ -23,23 +29,14 @@
           It was through her hosting of events onscreen and off, that her
           passion for performing ignited once again. After 6 years within
           the corporate fashion world, Francesca gave her acting career
-          center stage. Barker McCormick has since landed roles in three
-          series pilots (Skylife, SinFull, Justice Soldier of God) and three
-          films (Ill Intentions, How to Find Love in a Pandemic, Game of
-          Chess).
+          center stage. Barker McCormick has since landed roles in four series pilots and six films.
         </p>
         <p>
-          Outside of acting, Francesca continues her work in the event world
-          as the Project Director for Gina’s Collective, an advisory for
-          tech-enabled nonprofits. She also serves on the event committee
-          for the Princess Grace Kelly Foundation, an organization dedicated
-          to upholding the legacy of Princess Grace of Monaco, and elevating
-          extraordinary emerging artists in theater, dance and film through
-          career-advancing grants.
-        </p>
-        <p>
-          She is married to Lee McCormick and together, they have an
-          adorable French Bulldog, Penelope.
+          Outside of acting, Francesca continues her work in the event world as the Project Director for Gina's Collective,
+          an advisory for tech-enabled nonprofits.
+          She also serves on the Guild for the Princess Grace Kelly Foundation,
+          an organization dedicated to upholding the legacy of Princess Grace of Monaco,
+          and elevating extraordinary emerging artists in theater, dance and film through career-advancing grants.
         </p>
       </div>
       <div class="about-me-item about-me-item-img">

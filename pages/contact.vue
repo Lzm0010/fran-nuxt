@@ -14,14 +14,25 @@
     </div>
     <div class="form-container">
       <div class="left-contact form-flex-item">
-        <div class="agent-info">
-          <h4>Agent:</h4>
-          <p>Sharon Kelly</p>
-          <p>American Artists Group Talent Agency</p>
-          <p>13321 Ventura Blvd, Suite C-2</p>
-          <p>Sherman Oaks, Ca 91423</p>
-          <p>AmericanArtistsGroupTalent@gmail.com</p>
-          <p>(818) 430-8688</p>
+        <div class="associations">
+          <div class="agent-info">
+            <h4>Agent:</h4>
+            <p>Sharon Kelly</p>
+            <p>American Artists Group Talent Agency</p>
+            <p>13321 Ventura Blvd, Suite C-2</p>
+            <p>Sherman Oaks, Ca 91423</p>
+            <p>(818) 430-8688</p>
+            <a href="mailto:AmericanArtistsGroupTalent@gmail.com">AmericanArtistsGroupTalent@gmail.com</a>
+          </div>
+          <div class="agent-info">
+            <h4>Manager:</h4>
+            <p>Touchstone Management</p>
+            <p>Sheila Touchstone</p>
+            <p>4100 W. Alameda Ave #387</p>
+            <p>Burbank, Ca 91505</p>
+            <p>(424) 350-1448</p>
+            <a href="mailto:sheila@touchstonemanagement.com">sheila@touchstonemanagement.com</a>
+          </div>
         </div>
         <h4>Send me an Email:</h4>
         <form @submit.prevent="sendEmail">
@@ -126,11 +137,19 @@ export default {
   flex-basis: 50%;
 }
 
+.associations {
+  display: flex;
+  justify-content: space-evenly;
+}
+
 .agent-info {
   margin-bottom: 1rem;
-   p {
+   p, a {
      margin: 0;
      line-height: 1.2;
+     font-size: .85rem;
+     margin-bottom: 0.2rem;
+     color: #2e3138;
    }
 }
 
@@ -193,6 +212,10 @@ form {
   .insta-link {
     margin-right: 0;
     padding: 0.81rem;
+  }
+
+  .associations {
+    flex-direction: column;
   }
 
   .form-container {

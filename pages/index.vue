@@ -48,7 +48,7 @@
   margin-top: -4rem;
   height: 100%;
   width: 100%;
-  border: 4rem solid #ad2a67;
+  border: 4rem solid #2e3138;
   border-radius: 4px;
 }
 
@@ -74,7 +74,7 @@
 
 @media screen and (max-width: 900px) {
   .landing-image {
-    border: 0.5rem solid #ad2a67;
+    border: 0.5rem solid #2e3138;
   }
 
   .landing-links {
