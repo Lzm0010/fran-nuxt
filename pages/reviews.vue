@@ -7,12 +7,36 @@
         <div class="reviews">
           <div class="review">
             <div class="header-row">
+              <h4>That's Enough Now Thanks</h4>
+            </div>
+            <p>
+              “I have been writing and directing short films for eight years.
+              I have worked with professional actors in both New Mexico and California.
+              I recently finished shooting That’s Enough Now Thanks and had the pleasure of
+              working with Francesca Barker McCormick as our secondary lead.
+            </p>
+            <p>
+              During photography I quickly noticed Francesca had a well honed tool kit of
+              technical skills along with an innate acting ability. She came well prepared for
+              each scene, with a clear grasp of tone and substance. I was imminently
+              impressed. Her performance on-screen is engaging and energized, and remains
+              consistently terrific even at the end of a long day of shooting.
+              She was a joy to work with, meeting our small production with enthusiasm and
+              creativity. Her on set presence is calm, collected and dedicated. I highly
+              recommend you consider casting Francesca in any upcoming projects!"
+            </p>
+            <p class="reviewer">
+              - Aquila Chase-Daniel
+            </p>
+          </div>
+          <div class="review">
+            <div class="header-row">
               <h4>Skylife - Ashley</h4>
-              <img
+              <!-- <img
                 class="review-image"
                 :src="getPng('skylife')"
                 alt="Skylife"
-              >
+              > -->
             </div>
             <p>
               “You think it is a given but the fact that Francesca knew her
@@ -57,11 +81,11 @@
           <div class="review">
             <div class="header-row">
               <h4>How to Find Love In A Pandemic - Summer</h4>
-              <img
+              <!-- <img
                 class="review-image"
                 :src="getPng('howtofindlove')"
                 alt="How to Find Love in a Pandemic"
-              >
+              > -->
             </div>
             <p>
               “Francesca is a joy to work with! Her eagerness to dive into
@@ -98,14 +122,14 @@
 </template>
 
 <script>
-export default {
-  methods: {
-    getPng (img) {
-      const images = require.context('assets/images', false, /\.png$/)
-      return images('./' + img + '.png')
-    }
-  }
-}
+// export default {
+//   methods: {
+//     getPng (img) {
+//       const images = require.context('assets/images', false, /\.png$/)
+//       return images('./' + img + '.png')
+//     }
+//   }
+// }
 </script>
 
 <style lang="scss" scoped>
