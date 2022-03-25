@@ -4,23 +4,12 @@
     <h2>VIDEO</h2>
     <div class="video-container">
       <h4 class="video-title">
-        PROJECT REEL
+        2022 REEL
       </h4>
       <div class="video-frame">
         <iframe
           class="video-iframe"
-          src="https://www.youtube.com/embed/-cSD2WPCfy8"
-          frameborder="0"
-          allowfullscreen
-        />
-      </div>
-      <h4 class="video-title">
-        SELF TAPE REEL
-      </h4>
-      <div class="video-frame">
-        <iframe
-          class="video-iframe"
-          src="https://www.youtube.com/embed/IlNpaV5WW6g"
+          src="https://www.youtube.com/embed/y71bbi516xg"
           frameborder="0"
           allowfullscreen
         />
