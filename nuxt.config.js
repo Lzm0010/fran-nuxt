@@ -1,4 +1,6 @@
 export default {
+  // FOR LEE: USE nvm use 15.8.0 to get correct node version!
+  //
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
 

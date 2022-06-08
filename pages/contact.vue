@@ -24,15 +24,6 @@
             <p>(818) 430-8688</p>
             <a href="mailto:AmericanArtistsGroupTalent@gmail.com">AmericanArtistsGroupTalent@gmail.com</a>
           </div>
-          <div class="agent-info">
-            <h4>Manager:</h4>
-            <p>Touchstone Management</p>
-            <p>Sheila Touchstone</p>
-            <p>4100 W. Alameda Ave #387</p>
-            <p>Burbank, Ca 91505</p>
-            <p>(424) 350-1448</p>
-            <a href="mailto:sheila@touchstonemanagement.com">sheila@touchstonemanagement.com</a>
-          </div>
         </div>
         <h4>Send me an Email:</h4>
         <form @submit.prevent="sendEmail">
@@ -99,7 +90,7 @@ export default {
           }
         )
       } catch (error) {
-        console.log({ error })
+        // console.log({ error })
       }
       this.name = ''
       this.email = ''
@@ -139,7 +130,6 @@ export default {
 
 .associations {
   display: flex;
-  justify-content: space-evenly;
 }
 
 .agent-info {

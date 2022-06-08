@@ -7,6 +7,21 @@
         <div class="reviews">
           <div class="review">
             <div class="header-row">
+              <h4>Happiness is an Illusion</h4>
+            </div>
+            <p>
+              "Working with Francesca on my short film was a wonderful experience.
+              She was so collaborative and receptive to different ways to approach a very tough scene
+              about her character that had just had an abortion. She came ready to work and gave it
+              her all on every single take. Her layered, nuanced acting showed strength and courage,
+              and I couldn't have asked for a better performance."
+            </p>
+            <p class="reviewer">
+              - Rebecca Demeter
+            </p>
+          </div>
+          <div class="review">
+            <div class="header-row">
               <h4>That's Enough Now Thanks</h4>
             </div>
             <p>
