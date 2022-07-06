@@ -108,7 +108,7 @@
               and her comedic timing all stood out to us. She took what we
               wrote and brought her own unique choices to Summer to create a
               hilarious and full character. On top of that, she is a warm,
-              kind, and supportive supportive presence in any room. We can’t
+              kind, and supportive presence in any room. We can’t
               wait to work with her again!”
             </p>
             <p class="reviewer">

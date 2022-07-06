@@ -11,7 +11,7 @@
         </li>
         <li>
           <a
-            href="https://resumes.actorsaccess.com/francescabmccormick"
+            href="https://resumes.actorsaccess.com/francescabarkermccormick"
             target="_blank"
           >ACTORS ACCESS</a>
         </li>
