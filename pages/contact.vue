@@ -24,6 +24,13 @@
             <p>(818) 430-8688</p>
             <a href="mailto:AmericanArtistsGroupTalent@gmail.com">AmericanArtistsGroupTalent@gmail.com</a>
           </div>
+          <div class="agent-info">
+            <h4>Manager:</h4>
+            <p>Erika Finn</p>
+            <p>CSP Management/Citizen Skull</p>
+            <p>(323) 302-4242 ext 153</p>
+            <a href="mailto:erika@citizenskull.com">erika@citizenskull.com</a>
+          </div>
         </div>
         <h4>Send me an Email:</h4>
         <form @submit.prevent="sendEmail">
@@ -130,6 +137,7 @@ export default {
 
 .associations {
   display: flex;
+  justify-content: space-around;
 }
 
 .agent-info {
